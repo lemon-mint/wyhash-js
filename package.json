@@ -1,10 +1,11 @@
 {
   "name": "wyhash",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "wyhash JavaScript Port (https://github.com/wangyi-fudan/wyhash)",
-  "main": "index.js",
+  "exports": "./wyhash.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/lemon-mint/wyhash-js/issues"
   },
-  "homepage": "https://github.com/lemon-mint/wyhash-js#readme"
+  "homepage": "https://github.com/lemon-mint/wyhash-js#readme",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
 }
