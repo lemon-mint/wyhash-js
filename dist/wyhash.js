@@ -119,10 +119,4 @@ export {
   wyhash,
   wyhash_str
 };
-/**
- * @preserve
- * @license UNLICENSED
- * @author lemon-mint
- * https://github.com/lemon-mint/wyhash-js/blob/main/LICENSE
- */
 //# sourceMappingURL=wyhash.js.map

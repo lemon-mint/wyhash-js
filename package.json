@@ -1,6 +1,6 @@
 {
   "name": "wyhash",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "wyhash JavaScript Port (https://github.com/wangyi-fudan/wyhash)",
   "module": "./dist/wyhash.js",
   "main": "./dist/wyhash.cjs",

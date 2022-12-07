@@ -1,10 +1,3 @@
-/**
- * @preserve
- * @license UNLICENSED
- * @author lemon-mint
- * https://github.com/lemon-mint/wyhash-js/blob/main/LICENSE
- */
-
 function _mul64(x: bigint, y: bigint): [bigint, bigint] {
   x = BigInt.asUintN(64, x);
   y = BigInt.asUintN(64, y);
