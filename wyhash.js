@@ -95,4 +95,8 @@ function _wyhash(key, seed, secret) {
 export function wyhash(b, seed) {
     return _wyhash(b, seed, _wyp);
 }
+const TE = new TextEncoder();
+export function wyhash_str(s, seed) {
+    return _wyhash(TE.encode(s), seed, _wyp);
+}
 //# sourceMappingURL=wyhash.js.map

@@ -142,3 +142,9 @@ function _wyhash(
 export function wyhash(b: Uint8Array, seed: bigint): bigint {
   return _wyhash(b, seed, _wyp);
 }
+
+const TE = new TextEncoder();
+
+export function wyhash_str(s: string, seed: bigint): bigint {
+  return _wyhash(TE.encode(s), seed, _wyp);
+}
