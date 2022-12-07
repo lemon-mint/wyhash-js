@@ -1,4 +1,4 @@
-import { wyhash } from "./wyhash.js";
+import { wyhash } from "../wyhash.js";
 function assert(cond) {
     if (!cond) {
         throw new Error("assertion failed");

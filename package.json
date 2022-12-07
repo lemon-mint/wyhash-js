@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc",
-    "test": "npm run build && node wyhash.test.js"
+    "test": "tsc && node ./test/wyhash.test.js"
   },
   "repository": {
     "type": "git",
