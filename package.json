@@ -5,7 +5,8 @@
   "exports": "./wyhash.js",
   "type": "module",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "npm run build && node wyhash.test.js"
   },
   "repository": {
     "type": "git",
